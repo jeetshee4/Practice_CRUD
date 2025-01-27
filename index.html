@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="src/font.css">
+</head>
+<body style="background-image: url(backg.jpg);">
+  <header>
+    <nav class="bg-green-400 text-white flex h-12 items-center sticky">
+       <ul class="list-none flex gap-5">
+         <li><img src="" alt=""></li>
+         <li class="poppins-black size-fit">SDMS CRUD</li>
+         <li class="hover:cursor-pointer hover:underline">Home</li>
+         <li class="hover:cursor-pointer hover:underline">About</li>
+         <li class="hover:cursor-pointer hover:underline">Contacts</li>
+       </ul>
+    </nav>     
+  </header>
+  <main class="flex justify-center items-center m-20">
+     <div class="content bg-white rounded-md w-1/2">
+        <div class="heading w-full flex justify-center">
+            <div class="font-bold text-black w-1/5 m-3">
+                Student Data
+            </div>
+        </div>
+        <div class="inputs flex flex-wrap gap-4 p-5 justify-center">
+            
+            
+            <input id="name" type="text" placeholder="Enter your Name" class="bg-gray-700 text-white w-full rounded-md border-r-slate-950 p-3">
+            <input id="dept" type="text" placeholder="Enter your Dept" class="bg-gray-700 text-white w-full rounded-md border-r-slate-950 p-3">
+            <input id="roll" type="text" placeholder="Enter your Roll" class="bg-gray-700 text-white w-full rounded-md border-r-slate-950 p-3">
+            
+            <button class="rounded-md bg-green-600 p-3 hover:bg-green-800">Submit</button>
+            
+        </div>
+     </div>
+
+
+  </main>
+  <footer class="text-white fixed bottom-0 flex w-full justify-center">
+      Made by Jeet Shee
+  </footer>
+  <script src="src/script.js"></script>
+</body>
+</html>
